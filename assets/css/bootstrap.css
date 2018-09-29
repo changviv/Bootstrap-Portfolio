@@ -1,6 +1,7 @@
 
 body {
     background-image: url("../images/banana_background.png");
+    font-family: 'Inconsolata', monospace;
 }
 
 .bg-light {
