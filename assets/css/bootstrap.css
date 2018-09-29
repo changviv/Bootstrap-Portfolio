@@ -94,3 +94,8 @@ p {
     padding-bottom: 10px;
 
 }
+
+.btn-primary {
+    background-color: #b5ebe4;
+    border-color: #b5ebe4;;
+}
