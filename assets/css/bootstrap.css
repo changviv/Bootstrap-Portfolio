@@ -1,0 +1,95 @@
+
+body {
+    background-image: url("../images/banana_background.png");
+}
+
+.bg-light {
+    background-color: #f4c9be!important;
+}
+
+.navbar-nav {
+    padding-left: 0 20px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    margin-left: 8%;
+}
+
+.nav-item {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+    float: left;
+}
+
+.navbar-light .navbar-nav .nav-link, .active {
+    color: white;
+}
+
+.nav-border {
+    border-right: solid black 1px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.footer {
+    background-color: #f4c9be!important;
+    width: 100%;
+    position:static;
+    left:0;
+    bottom: 0;
+    height: 10%;
+}
+
+
+.footer > .container {
+
+  height: 40px;
+  text-align:center;
+}
+
+.text-muted {
+    color: white!important;
+    font-family: 'Inconsolata', monospace;
+}
+
+.background-container {
+    background-image: url("../images/banana_background.png");
+}
+
+.jumbotron {
+    margin: 100px;
+    background-color: white;
+    border-radius: .5rem;
+    height: auto !important;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.display-4 {
+    font-family: 'Inconsolata', monospace;
+    color: #f4c9be!important;
+}
+
+img {
+    padding-right: 20px;
+    margin-right: 25px;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    color: #777777;
+    padding-bottom: 30px;
+}
+
+.lead {
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
