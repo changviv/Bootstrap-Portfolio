@@ -48,10 +48,14 @@ body {
     height: 10%;
 }
 
-
-.footer > .container {
+.portfolio-container {
 
   height: 40px;
+  text-align:center;
+}
+
+.footer, .container {
+
   text-align:center;
 }
 
