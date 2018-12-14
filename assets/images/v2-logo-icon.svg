@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1013px" height="673px" viewBox="0 0 1013 673" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Top Part Gray - background</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Top-Part-Gray---background" stroke="#F9F1F1" stroke-width="9" fill="#F9F1F1" x="4.5" y="4.5" width="1004" height="664" rx="8"></rect>
+        <rect id="Black-Rectangle" stroke="#000000" fill="#000000" x="0.5" y="81.5" width="1012" height="517"></rect>
+        <text id="V_" font-family="AmericanTypewriter-Bold, American Typewriter" font-size="300" font-weight="bold" fill="#7ED321">
+            <tspan x="78.75" y="362">V_</tspan>
+        </text>
+        <rect id="Bottom-Part-Black-" stroke="#000000" fill="#000000" x="0.5" y="556.5" width="1012" height="116" rx="8"></rect>
+        <ellipse id="Oval" stroke="#D22323" fill="#FF5858" cx="51" cy="40.5" rx="24" ry="21.5"></ellipse>
+        <ellipse id="Oval" stroke="#CE9530" fill="#F5A623" cx="119" cy="40.5" rx="24" ry="21.5"></ellipse>
+        <ellipse id="Oval" stroke="#339A02" fill="#4CD425" cx="187" cy="40.5" rx="24" ry="21.5"></ellipse>
+    </g>
+</svg>

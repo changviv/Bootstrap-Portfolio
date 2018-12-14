@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Vivien Chang Profile</title>
+    <!-- <link rel="shortcut icon" herf="assets/images/v2-logo-icon.svg"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Roboto+Mono:300i" rel="stylesheet">
@@ -15,9 +16,12 @@
 </head>
 
 <body>
+    <!-- Navigation -->
+    <!-- hide navigation until landing page arrow is clicked -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="assets/images/v2-logo-icon.svg" width="60" height="60" alt="">
+        <a class="navbar-brand" href="index">
+            Vivien
+            <!-- <img src="assets/images/v2-logo-icon.svg" width="60" height="60" alt=""> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,19 +37,30 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <!-- <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="index.html">About</a>
-                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                <a class="dropdown-item" href="contact.html">Contact Me</a>
-              </div>
-            </li> -->
             </ul>
         </div>
     </nav>
+    <!-- End of Navigation -->
+
+    <!-- Landing page -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <h1>Vivien Chang.</h1>
+            <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=1243005372"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/Savina12965934"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/savina-xu-2951bb137"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/savinaxu"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/supa.savina/?hl=en"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <a href="#about" class="down">
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </section>
+    <!-- End of Landing Page -->
+
+    <!-- About Me Page -->
     <div class="jumbotron">
         <h1 class="display-4">About Me</h1>
         <hr class="my-4">
@@ -56,6 +71,10 @@
             I'm currently taking a front-web development class and learning the MERN stack.</p>
         <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
     </div>
+
+    <!-- End of About Me -->
+
+
     <div class="clearfix"></div>
     <footer class="footer">
         <div class="container">
@@ -66,9 +85,9 @@
             <span class="text-muted">Copyright&copy.</span>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 
 </html>
