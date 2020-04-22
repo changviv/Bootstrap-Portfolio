@@ -6,21 +6,31 @@
     //     // rgba($color-header-dark, 0.8)),
     //     url("../images/saturn.svg");
         ;
-    background-image: url("../images/Firefly2.gif");
+    background-image: url("../images/Firefly3.gif");
     background-size: inherit;
     background-color: rgba($color-grey-dark, 0.9);
     background-position: top;
     // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 
-    &__logo{
+    &__logo-box {
+        // border: 1px red solid;
         position: absolute;
         top: 30%;
         left: 17%;
-        animation: moveInBottomLeftTopRight 2s both;
-        // animation-iteration-count: 1;
-        // animation-delay: 2.5s;
         transition: all .2s;
+
+        &:hover {
+            animation: jello 1s;
+        }
+
+        &-logo{
+            
+            animation: moveInBottomLeftTopRight 2s both;
+            // animation-iteration-count: 1;
+            // animation-delay: 2.5s;
+            
+        }
     }
 
 

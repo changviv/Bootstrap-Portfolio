@@ -20,6 +20,8 @@
   0% {
     opacity: 0;
     transform: translate(-100%, 200%); }
+  80% {
+    transform: rotate(180deg); }
   100% {
     opacity: 1;
     transform: translate(0%, 0%); } }
@@ -107,17 +109,20 @@ body {
 
 .header {
   height: 100vh;
-  background-image: url("../images/Firefly2.gif");
+  background-image: url("../images/Firefly3.gif");
   background-size: inherit;
   background-color: rgba(0, 0, 0, 0.9);
   background-position: top;
   position: relative; }
-  .header__logo {
+  .header__logo-box {
     position: absolute;
     top: 30%;
     left: 17%;
-    animation: moveInBottomLeftTopRight 2s both;
     transition: all .2s; }
+    .header__logo-box:hover {
+      animation: jello 1s; }
+    .header__logo-box-logo {
+      animation: moveInBottomLeftTopRight 2s both; }
   .header__text-box {
     position: absolute;
     /* 40 and 50 are in relation to the parent element which is the header class */
