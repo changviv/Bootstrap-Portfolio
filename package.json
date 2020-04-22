@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Vivien's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass assets/sass/main.scss assets/css/styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/changviv/Bootstrap-Portfolio.git"
+  },
+  "author": "Vivien Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/changviv/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/changviv/Bootstrap-Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
