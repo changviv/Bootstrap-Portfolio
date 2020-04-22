@@ -1,0 +1,70 @@
+.header {
+    height: 100vh;
+    // background-image: //linear-gradient(
+    //     // to right bottom,
+    //     // rgba($color-header-light, 0.2),
+    //     // rgba($color-header-dark, 0.8)),
+    //     url("../images/saturn.svg");
+        ;
+    background-image: url("../images/Firefly3.gif");
+    background-size: inherit;
+    background-color: rgba($color-grey-dark, 0.9);
+    background-position: top;
+    // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+
+    &__logo-box {
+        // border: 1px red solid;
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        transition: all .2s;
+
+        &:hover {
+            animation: jello 1s;
+        }
+
+        &-logo{
+            
+            animation: moveInBottomLeftTopRight 2s both;
+            // animation-iteration-count: 1;
+            // animation-delay: 2.5s;
+            
+        }
+    }
+
+
+    &__text-box {
+        position: absolute;
+        /* 40 and 50 are in relation to the parent element which is the header class */
+        top: 50%;
+        left: 50%;
+        /* relation to the element itself centers into the middle of the class */
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        .heading-primary {
+            margin-bottom: 6rem
+        }
+
+    }
+
+    .btn {
+
+        // border: 1px red solid;
+
+        &__arrow {
+            height: 5rem;
+            animation: fadeIn 2s both;
+            animation-delay: 2s;
+            
+            // &:hover {
+            //     animation: jello 1s;
+            // }
+        }
+
+        &:hover {
+                animation: jello 1s;
+            }
+    }
+}
